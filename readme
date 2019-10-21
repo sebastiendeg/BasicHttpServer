@@ -1,0 +1,13 @@
+Notes:
+
+* This is Maven project. execute MVN
+* The server only support GET requests and supports Keep-Alive with a 15sec Timeout.
+* Dependency => Apache HttpComponent for the request/response implementation (mostly to avoid re-implementing http header parsing).
+* Dependency => Guice for dependency injection
+*
+* Be kind, I have not written any code for the last 4 years :-)
+
+
+To Run the project:
+1. mvn install
+2. java -jar target/BasicHttpServer-1.0-SNAPSHOT-jar-with-dependencies.jar
